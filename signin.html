@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="body">
+        <div class="lefty">
+            <div class="nav">
+                <img src="Logo.svg">
+                <a href="view.html">Back to camgrounds</a>
+            </div>
+            <div class="start">
+                <h1>Start exploring camps from all around the world.</h1>
+                <div id="div1">
+                    <form name="loginForm" method="post" action="view.html">
+                        <p>Username &nbsp;<br></p>
+                        <input type="text" name="username" id="username" placeholder="johndoe_91"><br>
+                        <p class="ps">Password &nbsp; <br></p>
+                        <input type="password" name="password" id="password" placeholder="Enter Your Password"><br>
+                        <div class="but">
+                           <input type="button" onclick="login(loginForm)" value="Login" class="log" style="background-color: black; color: white;">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <p class="not">Not yet a user? <a href="signup.html">Create an account</a></p>
+        </div>
+        <div class="righty">
+            <p>"YelpCamp has honestly saved me hours of research time, and the camps on here are definetely well picked and added."</p>
+            <div class="user">
+                <img src="User Testimonial.svg">
+                <div class="test">
+                    <h6>May Andrews</h6>
+                    <p>Professional Hiker</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

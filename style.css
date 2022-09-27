@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.landing{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.landing .right{
+    width: 50%;
+}
+.landing .right img{
+    width: 89%;
+    border-radius: 0px 0 0 10px;
+}
+.landing .left{
+    width: 50%;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 0 10px 10px 0;
+}
+.landing .left .icon{
+    margin-bottom: 100px;
+}
+.one, .two, .three{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+.one img, .two img, .three img{
+    width: 3%;
+}
+.one p, .two p, .three p{
+    font-size: 14px;
+    color: gray;
+}
+.four p{
+    font-size: 15px;
+    color: gray;
+}
+.image{
+    display: flex;
+}
+.text h3{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.text .first{
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: gray;
+}
+.text button{
+    font-weight: 700;
+    font-size: 11px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    background-color: black;
+}
+.text button a{
+    text-decoration: none;
+    color: white;
+}
+/* Individual Campground */
+body{
+    background-color: whitesmoke;
+}
+nav{
+    display: flex;
+    gap: 50rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+nav .first{
+    display: flex;
+    gap: 30px;
+}
+nav .first a{
+    margin-top: 6px;
+    text-decoration: none;
+    color: gray;
+}
+nav .second{
+    display: flex;
+    gap: 20px;
+}
+nav .second a{
+    text-decoration: none;
+}
+.login{
+    color: gray;
+}
+.create{
+    color: white;
+}
+nav .second button{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: black;
+}
+.main{
+    display: flex;
+    width: 100%;
+    /* gap: 100px; */
+}
+.main .left{
+    width: 40%;
+    padding-left: 200px;
+}
+.main .left .image{
+    width: 60%;
+    /* margin-top: 50px; */
+    border: 3px solid white;
+    /* background-color: white; */
+}
+.main .left img{
+    width: 65%;
+    margin-left: 35px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.main .right{
+    width: 60%;
+    padding-right: 200px;
+}
+.right .description{
+    width: 80%;
+    margin-bottom: 15px;
+    border: 3px solid white;
+}
+.right .description main{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.right .description .words .head{
+    display: flex;
+    gap: 120px;
+    padding-bottom: 10px;
+}
+.right .description .words .head h4{
+    margin-top: 10px;
+}
+.right .description .words .head h2{
+    margin-top: 5px;
+}
+.right .description .words p{
+    width: 80%;
+    font-size: 11px;
+    margin-bottom: 10px;
+    color: gray;
+}
+.right .names{
+    width: 80%;
+    border: 3px solid white;
+}
+.right .names main{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.right .names main p{
+    font-size: 11px;
+    width: 80%;
+    margin-bottom: 10px;
+    color: gray;
+}
+.right .names main .honest{
+    width: 75%;
+}
+.another{
+    display: flex;
+    width: 100%;
+    gap: 100px;
+}
+.another h4{
+   width: 100%;
+}
+.review{
+    padding-left: 200px;
+}
+.review button{
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+    /* height: 40px; */
+    border-radius: 5px;
+    padding: 5px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 12px; */
+    background-color: black;
+}
+.review button img{
+    width: 10%;
+}
+.review button a{
+    text-decoration: none;
+    color: white;
+}
+footer img{
+    padding-left: 100px;
+}
+/* SIGN IN PAGE */
+.body{
+    display: flex;
+    width: 100%;
+}
+.body .lefty{
+    width: 55%;
+    padding-left: 150px;
+    background-color: white;
+    height: 100vh;
+}
+.body .nav{
+    display: flex;
+    gap: 180px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.body .nav a{
+    font-size: 13px;
+    padding-top: 6px;
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+}
+.body .nav img{
+    width: 18%;
+}
+.body .start h1{
+    width: 70%;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.body .righty{
+    width: 45%;
+    padding-top: 200px;
+    padding-left: 180px;
+    /* padding-right: 150px; */
+}
+.body .righty p{
+    width: 39%;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+.body .righty .user{
+    display: flex;
+    gap: 10px;
+}
+.body .righty .user img{
+    width: 7%;
+}
+.body .user .test p{
+    width: 100%;
+    font-size: 10px;
+    color: gray;
+}
+.body .user .test{
+    margin-top: 5px;
+}
+.body .user .test h6{
+    padding-bottom: 5px;
+}
+#div1{
+    /* width: 500px; */
+    /* margin: 0px auto; */
+    background-color: white;
+    /* margin-top: 30px; */
+    /* padding: 20px; */
+}
+/* #div1 form{
+    padding-top: 10px;
+} */
+#div1 p{
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.start form input{
+    width: 70%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: whitesmoke;
+    color: gray;
+}
+.ps{
+    margin-top: 10px;
+}
+.but{
+    margin-top: 20px;
+}
+.but input{
+    margin-bottom: 10px;
+}
+.lefty .not{
+    font-size: 13px;
+}
+.lefty .not a{
+    color: lightseagreen;
+}
+nav .second .out{
+    color: gray;
+}
